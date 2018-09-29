@@ -1,4 +1,4 @@
-<!--sync的运用1-->
+<!--sync的运用-->
 <template>
     <div class="details">
         <myComponent :show.sync='valueChild' style="padding: 30px 20px 30px 5px;border:1px solid #ddd;margin-bottom: 10px;"></myComponent>

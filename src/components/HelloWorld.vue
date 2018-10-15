@@ -13,7 +13,7 @@ import Vue from "vue";
 Vue.component("v-two", {
   template: ` <div>
       <nav>
-        <slot name="nav">nav</slot>
+        <slot name="nav">nav1</slot>
       </nav>
       <main>
         <slot name="main">main2222</slot>

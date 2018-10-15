@@ -2,7 +2,7 @@
 <template>
     <div>
       <v-two>
-8888888888888888
+888888888888888899999999
 <div slot="rrr"></div>
       </v-two>
     </div>
@@ -16,7 +16,7 @@ Vue.component("v-two", {
         <slot name="nav">nav</slot>
       </nav>
       <main>
-        <slot name="main">main</slot>
+        <slot name="main">main2222</slot>
       </main>
       <footer>
         <slot name="footer">footer</slot>

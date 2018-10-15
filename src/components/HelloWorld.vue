@@ -26,7 +26,7 @@ Vue.component("v-two", {
     </div>`,
   props: [],
   methods: {
-    closeDiv() {
+    closeDiv2() {
     }
   }
 });

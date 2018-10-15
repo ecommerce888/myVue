@@ -1,4 +1,4 @@
-<!--slot的运用 push-->
+<!--slot的运用-->
 <template>
     <div>
       <v-two>

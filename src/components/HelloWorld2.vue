@@ -1,4 +1,4 @@
-<!--map的运用3-->
+<!--map的运用2223-->
 <template>
     <div>
 {{goodsList}}

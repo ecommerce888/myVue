@@ -4,7 +4,7 @@ var app = new Vue({
         product: [
             {
                 id: 1,
-                category: 'electronic',
+                category: 'electrodddnic',
                 name: 'iPhone 8',
                 price: 8888,
                 count: 1

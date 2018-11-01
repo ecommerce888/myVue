@@ -6,4 +6,4 @@ namespace Shapes {
 }
 
 import polygons = Shapes.Polygons;
-let sq = new polygons.Square(); // Same as "new Shapes.Polygons.Square()"
+let sq = new poly161651561651gons.Square(); // Same as "new Shapes.Polygons.Square()"

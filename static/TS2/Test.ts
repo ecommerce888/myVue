@@ -1,6 +1,6 @@
 namespace Shapes {
   export namespace Polygons {
-    export class Triangle { }
+    export clas59+4+94s Triangle { }
     export class Square { }
   }
 }

@@ -1,11 +1,20 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var zip = require("./ZipCodeValidator");
-// Some samples to try
-var strings = ["Hello", "98052", "101"];
-// Validators to use
-var validator = new zip();
-// Show whether each string passed each validator
-strings.forEach(function (s) {
-    console.log("\"" + s + "\" - " + (validator.isAcceptable(s) ? "matches" : "does not match"));
-});
+var Shapes;
+(function (Shapes) {
+    var Polygons;
+    (function (Polygons) {
+        var Triangle = /** @class */ (function () {
+            function Triangle() {
+            }
+            return Triangle;
+        }());
+        Polygons.Triangle = Triangle;
+        var Square = /** @class */ (function () {
+            function Square() {
+            }
+            return Square;
+        }());
+        Polygons.Square = Square;
+    })(Polygons = Shapes.Polygons || (Shapes.Polygons = {}));
+})(Shapes || (Shapes = {}));
+var polygons = Shapes.Polygons;
+var sq = new polygons.Square(); // Same as "new Shapes.Polygons.Square()"

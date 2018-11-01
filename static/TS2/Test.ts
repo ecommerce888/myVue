@@ -1,12 +1,9 @@
-import zip = require("./ZipCodeValidator");
+namespace Shapes {
+  export namespace Polygons {
+    export class Triangle { }
+    export class Square { }
+  }
+}
 
-// Some samples to try
-let strings = ["Hello", "98052", "101"];
-
-// Validators to use
-let validator = new zip();
-
-// Show whether each string passed each validator
-strings.forEach(s => {
-  console.log(`"${ s }" - ${ validator.isAcceptable(s) ? "matches" : "does not match" }`);
-});
+import polygons = Shapes.Polygons;
+let sq = new polygons.Square(); // Same as "new Shapes.Polygons.Square()"

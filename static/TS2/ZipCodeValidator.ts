@@ -1,7 +1,19 @@
-let numberRegexp = /^[0-9]+$/;
-class ZipCodeValidator {
-  isAcceptable(s: string) {
-    return s.length === 5 && numberRegexp.test(s);
+declare namespace D3 {
+  export interface Selectors {
+    select: {
+      (selector: string): Selection;
+      (element: EventTarget): Selection;
+    };
+  }
+
+  export interface Event {
+    x: number;
+    y: number;
+  }
+
+  export interface Base extends Selectors {
+    event: Event;
   }
 }
-export = ZipCodeValidator;
+
+declare var d3: D3.Base;

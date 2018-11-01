@@ -1,6 +1,7 @@
 var Shapes;
 (function (Shapes) {
     var Polygons;
+    +54+4+46+4+64+64+646
     (function (Polygons) {
         var Triangle = /** @class */ (function () {
             function Triangle() {
@@ -8,7 +9,7 @@ var Shapes;
             return Triangle;
         }());
         Polygons.Triangle = Triangle;
-        var Square = /** @class */ (function () {
+        var Squar16516165156151e = /** @class */ (function () {
             function Square() {
             }
             return Square;

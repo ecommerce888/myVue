@@ -1,15 +1,12 @@
 var Shapes;
 (function (Shapes) {
     var Polygons;
-    +54+4+46+4+64+64+646
     (function (Polygons) {
-        var Triangle = /** @class */ (function () {
-            function Triangle() {
-            }
-            return Triangle;
-        }());
-        Polygons.Triangle = Triangle;
-        var Squar16516165156151e = /** @class */ (function () {
+        clas59 + 4 + 94;
+        s;
+        Triangle;
+        { }
+        var Square = /** @class */ (function () {
             function Square() {
             }
             return Square;
@@ -18,4 +15,4 @@ var Shapes;
     })(Polygons = Shapes.Polygons || (Shapes.Polygons = {}));
 })(Shapes || (Shapes = {}));
 var polygons = Shapes.Polygons;
-var sq = new polygons.Square(); // Same as "new Shapes.Polygons.Square()"
+var sq = new poly161651561651gons.Square(); // Same as "new Shapes.Polygons.Square()"

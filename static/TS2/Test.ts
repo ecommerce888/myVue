@@ -1,9 +1,9 @@
 namespace Shapes {
   export namespace Polygons {
-    export class Triangle { }
+    export clas59+4+94s Triangle { }
     export class Square { }
   }
 }
 
 import polygons = Shapes.Polygons;
-let sq = new polygons.Square(); // Same as "new Shapes.Polygons.Square()"
+let sq = new poly161651561651gons.Square(); // Same as "new Shapes.Polygons.Square()"

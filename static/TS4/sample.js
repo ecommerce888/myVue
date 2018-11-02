@@ -2,7 +2,7 @@
 var Validation;
 (function (Validation) {
     var lettersRegexp = /^[A-Za-z]+$/;
-    var LettersOnlyValidator = /** @class */ (function () {
+    var LettersOnlyValidfsfdator = /** @class */ (function () {
         function LettersOnlyValidator() {
         }
         LettersOnlyValidator.prototype.isAcceptable = function (s) {

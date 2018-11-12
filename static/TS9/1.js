@@ -4,7 +4,7 @@ var C = /** @class */ (function () {
         this.constructorUnknown = undefined;
     }
     C.prototype.method = function () {
-        this.constr1111uctorOnly = false; // error, constructorOnly is a number
+        this.constructorOnly = false; // error, constructorOnly is a number
         this.constructorUnknown = "plunkbat"; // ok, constructorUnknown is string | undefined
         this.methodOnly = 'ok'; // ok, but y could also be undefined
     };
